@@ -1,4 +1,4 @@
-# 🔎 Local NLP Paper Search (Asta-esque Tool)
+# 🔎 LLM-Powered-Research-Discovery (Asta-esque Tool)
 
 This project provides a lightweight, local research discovery tool inspired by **AllenAI’s Asta**.  
 It lets you generate embeddings for scientific papers with **SPECTER2**, build a searchable index, and interactively explore results via a **Streamlit app**.  

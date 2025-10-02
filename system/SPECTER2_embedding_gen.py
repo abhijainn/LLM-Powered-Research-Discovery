@@ -14,7 +14,7 @@ model.set_active_adapters("specter2")
 # gen embeddings in eval mode, e.g., no dropout; attempt to use GPU if available
 model.eval().to("cuda" if torch.cuda.is_available() else "cpu")
 
-# 51.7k papers in the set
+# Cutdown from 1M possible papers to ~52k in current corpus
 ds = load_dataset("csv", data_files={"train": "arxiv_metadata.csv"})["train"]
 
 def concat_title_abs(batch):

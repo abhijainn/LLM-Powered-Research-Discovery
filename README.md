@@ -39,3 +39,6 @@ It lets you generate embeddings for scientific papers with **SPECTER2**, build a
 ### 1. Generate embeddings
 ```bash
 python SPECTER2_embedding_gen.py
+
+streamlit run app_with_metadata.py
+
